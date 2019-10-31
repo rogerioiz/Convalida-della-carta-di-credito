@@ -1,0 +1,30 @@
+{
+  "name": "card-validator-dj",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheyme-jensen/card-validator-dj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheyme-jensen/card-validator-dj/issues"
+  },
+  "homepage": "https://github.com/dheyme-jensen/card-validator-dj#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
